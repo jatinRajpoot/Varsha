@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Love Blooms - About Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body.about {
+      background-image: url('assets/images/lotus.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    
+    .about-container {
+      max-width: 800px;
+      margin: 80px auto;
+      padding: 40px;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .about-container h1 {
+      font-family: 'Playfair Display', serif;
+      color: #e91e63;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .about-container p {
+      margin-bottom: 20px;
+      line-height: 1.6;
+    }
+    
+    .about-section {
+      margin-bottom: 30px;
+    }
+    
+    .about-section h2 {
+      font-family: 'Playfair Display', serif;
+      color: #e91e63;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body class="about">
+  <header>
+    <div class="logo">Love Blooms</div>
+    <label for="menu-toggle" class="hamburger-menu">
+      <span></span>
+    </label>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <nav>
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="products.html" class="nav-link">Shop</a>
+      <a href="about.html" class="nav-link active">About Us</a>
+      <a href="#" class="nav-link cart-icon"><i class="fas fa-shopping-cart"></i></a>
+    </nav>
+  </header>
+  <main>
+    <div class="about-container">
+      <h1>About Love Blooms</h1>
+      
+      <div class="about-section">
+        <h2>Our Story</h2>
+        <p>Love Blooms was founded in 2015 with a simple yet profound mission: to help people express their deepest emotions through the timeless language of flowers. What began as a small family-owned shop has blossomed into a beloved floral boutique known for its exquisite arrangements and personalized service.</p>
+        <p>Our journey started when our founder, Sarah, realized how a carefully selected bouquet could convey feelings that words often struggle to express. Inspired by this revelation, she dedicated herself to creating a space where love and beauty could flourish through floral artistry.</p>
+      </div>
+      
+      <div class="about-section">
+        <h2>Our Philosophy</h2>
+        <p>At Love Blooms, we believe that every flower tells a story. We carefully source our blooms from sustainable local farms whenever possible, ensuring that each petal is as fresh and vibrant as the emotions they represent.</p>
+        <p>We understand that when you choose to send flowers, you're entrusting us with your most precious sentiments. That's why we approach each arrangement with dedication, creativity, and attention to detail, crafting floral expressions that are as unique as your feelings.</p>
+      </div>
+      
+      <div class="about-section">
+        <h2>Our Promise</h2>
+        <p>When you choose Love Blooms, you're not just buying flowers – you're creating memories. We promise to deliver not only the freshest, most beautiful blooms but also an experience that touches hearts and nurtures connections.</p>
+        <p>Whether you're celebrating love, expressing sympathy, or simply brightening someone's day, we're honored to be part of your emotional journey. Let us help you speak the language of flowers and watch as love truly blooms.</p>
+      </div>
+    </div>
+  </main>
+  <div id="cart-popup">
+    <p>Flower added to the cart</p>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>

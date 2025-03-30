@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Love Blooms - Shop</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
   <header>
     <div class="logo">Love Blooms</div>
+    <label for="menu-toggle" class="hamburger-menu">
+      <span></span>
+    </label>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <nav>
       <a href="index.html" class="nav-link">Home</a>
       <a href="products.html" class="nav-link active">Shop</a>
+      <a href="about.html" class="nav-link">About Us</a>
+      <a href="#" class="nav-link cart-icon"><i class="fas fa-shopping-cart"></i></a>
     </nav>
   </header>
   <main>
@@ -20,12 +27,6 @@
         <img src="assets/images/red_rose.jpg" alt="Red Roses">
         <h2>Red Roses</h2>
         <p>The timeless expression of deep love and desire.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/pink_rose.jpg" alt="Pink Roses">
-        <h2>Pink Roses</h2>
-        <p>Symbolize grace, admiration, and tender joy.</p>
         <button class="add-to-cart">Add to Cart</button>
       </div>
       <div class="flower-card">
@@ -40,89 +41,10 @@
         <p>Bright and cheerful, to light up their heart.</p>
         <button class="add-to-cart">Add to Cart</button>
       </div>
-      <div class="flower-card">
-        <img src="assets/images/tulips.jpg" alt="Tulips">
-        <h2>Tulips</h2>
-        <p>Vibrant blooms to declare your passionate love.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/jasmine.jpg" alt="Jasmine">
-        <h2>Jasmine</h2>
-        <p>Sweet and fragrant, a token of pure affection.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/marigold.jpg" alt="Marigold">
-        <h2>Marigold</h2>
-        <p>Warm and vibrant, celebrating your love’s glow.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/hibiscus.jpg" alt="Hibiscus">
-        <h2>Hibiscus</h2>
-        <p>Exotic beauty for an unforgettable someone.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/lotus.jpg" alt="Lotus">
-        <h2>Lotus</h2>
-        <p>A symbol of purity and unwavering devotion.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/orchids.jpg" alt="Orchids">
-        <h2>Orchids</h2>
-        <p>Exquisite and rare, just like your love.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/peonies.jpg" alt="Peonies">
-        <h2>Peonies</h2>
-        <p>Lush and romantic, for a grand love story.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/carnations.jpg" alt="Carnations">
-        <h2>Carnations</h2>
-        <p>Charming and lasting, like your feelings.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/dahlias.jpg" alt="Dahlias">
-        <h2>Dahlias</h2>
-        <p>Bold and beautiful, a statement of love.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/chrysanthemums.jpg" alt="Chrysanthemums">
-        <h2>Chrysanthemums</h2>
-        <p>Optimism and love in every petal.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/gerberas.jpg" alt="Gerberas">
-        <h2>Gerberas</h2>
-        <p>Cheerful and bright, to spark a smile.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/tuberose.jpg" alt="Tuberose">
-        <h2>Tuberose</h2>
-        <p>Intoxicating fragrance for passionate love.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
-      <div class="flower-card">
-        <img src="assets/images/freesias.jpg" alt="Freesias">
-        <h2>Freesias</h2>
-        <p>Delicate and sweet, a tender love note.</p>
-        <button class="add-to-cart">Add to Cart</button>
-      </div>
+      
     </div>
   </main>
-  <div id="loading-overlay">
-    <span id="typing-text"></span>
-  </div>
+  <!-- Loading overlay removed -->
   <div id="cart-popup">
     <p>Flower added to the cart</p>
   </div>
